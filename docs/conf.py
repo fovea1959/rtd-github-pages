@@ -26,7 +26,7 @@ author = 'Test Author'
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = '1.0.0'
+release = '1.0.3'
 
 
 # -- General configuration ---------------------------------------------------
@@ -267,5 +267,5 @@ html_context['downloads'].append( ('epub', '/' +REPO_NAME+ '/' +current_language
 html_context['display_github'] = True
 html_context['github_user'] = 'fovea1959'
 html_context['github_repo'] = 'herc-docs-demo'
-html_context['github_version'] = 'master/docs/'
+html_context['github_version'] = 'fovea1959/docs/'
  

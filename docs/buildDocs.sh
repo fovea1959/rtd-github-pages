@@ -92,7 +92,7 @@ for current_version in ${versions}; do
 done
  
 # return to master branch
-git checkout master
+git checkout fovea1959
  
 #######################
 # Update GitHub Pages #
@@ -118,10 +118,10 @@ cat > index.html <<EOF
 <html>
    <head>
       <title>helloWorld Docs</title>
-      <meta http-equiv = "refresh" content="0; url='/${REPO_NAME}/en/master/'" />
+      <meta http-equiv = "refresh" content="0; url='/${REPO_NAME}/en/fovea1959/'" />
    </head>
    <body>
-      <p>Please wait while you're redirected to our <a href="/${REPO_NAME}/en/master/">documentation</a>.</p>
+      <p>Please wait while you're redirected to our <a href="/${REPO_NAME}/en/fovea1959/">documentation</a>.</p>
    </body>
 </html>
 EOF
