@@ -265,7 +265,7 @@ html_context['downloads'].append( ('epub', '/' +REPO_NAME+ '/' +current_language
 ##########################
  
 html_context['display_github'] = True
-html_context['github_user'] = 'gsf600y'
+html_context['github_user'] = 'fovea1959'
 html_context['github_repo'] = 'herc-docs-demo'
 html_context['github_version'] = 'master/docs/'
  
